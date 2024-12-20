@@ -1,0 +1,17 @@
+.todo-list-container {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  
+  .todo-list-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .todo-ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  

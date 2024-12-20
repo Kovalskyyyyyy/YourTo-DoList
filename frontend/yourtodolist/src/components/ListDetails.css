@@ -1,0 +1,116 @@
+.list-details-container {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+  }
+  
+  .list-details-sections {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .todos-section,
+  .members-section {
+    flex: 1;
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .todos-section h3,
+  .members-section h3 {
+    text-align: left;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .todos-section ul,
+  .members-section ul {
+    list-style: none;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .todos-section li,
+  .members-section li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todos-section li:last-child,
+  .members-section li:last-child {
+    border-bottom: none;
+  }
+  
+  .add-item-form,
+  .add-member-form {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .add-item-form input,
+  .add-member-form input {
+    flex: 1;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-item-form button,
+  .add-member-form button {
+    padding: 8px 12px;
+    font-size: 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-item-form button:hover,
+  .add-member-form button:hover {
+    background-color: #0056b3;
+  }
+  button {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .check-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .check-button:hover {
+    background-color: #45a049;
+  }
+  
+  .delete-button {
+    background-color: #ff4d4d;
+    color: white;
+  }
+  
+  .delete-button:hover {
+    background-color: #e60000;
+  }
+  
